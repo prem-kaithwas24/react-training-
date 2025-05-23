@@ -1,14 +1,13 @@
-.module1-container, .module2-container {
-  padding: 20px;
+.module1-container, .module2-container, .module-container {
   border-radius: 10px;
   box-shadow: 0 0 2px 0 rgba(189, 102, 102, 0.1);
-  margin: 20px;
-  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #f0f0f0;
+  height: 90vh;
+  margin: 20px;
 }
 
 .module1-button-container {
